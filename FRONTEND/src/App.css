@@ -1,6 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reddit+Sans+Condensed:wght@200..900&family=Roboto+Slab:wght@100..900&display=swap');
+
 .maincontainer{
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,32 +15,27 @@ h1{
     border: 4px solid black;
 } 
 .formdiv{
-    width: 60%;
+  border: 1px solid blue;
+  border-radius: 8px;
+  width: 50%;
+  padding: 20px;
+  box-shadow: -1px 1px 18px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 18px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 18px -1px rgba(0,0,0,0.75);
+   
 }
-.imgdiv{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.imgpro{
-    width: 150px;
-    height: 150px;
-    margin: 20px;
-    border-radius: 50%;
-    background-color: aqua;
-}
-.imgs{
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-    cursor: pointer;
+.navbar1{
+    font-family:"Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    box-shadow: -1px 1px 18px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 18px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 18px -1px rgba(0,0,0,0.75);
 }
 .signinbtn{
     width: 220px;
     height: 40px;
-    margin: 40px;
+    margin: 30px;
     background-color: rgb(37, 37, 246);
     color: white;
     font-weight: 600;

@@ -26,7 +26,7 @@ function Details() {
       <div className="maincontainer">
         <div className='formdiv'>
           <h3 className="text-center"><u>LIST OF USERS</u></h3>
-          <br /><br />
+          <br />
           <table className="table table-striped table-light mt-3">
             <thead>
               <tr className="table-primary">

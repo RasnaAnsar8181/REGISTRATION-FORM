@@ -4,7 +4,7 @@ import {Link } from 'react-router-dom'
 function Navbar1() {
   return (
     <div>
-       <Navbar bg="primary" data-bs-theme="dark">
+       <Navbar className='navbar1' bg="primary" data-bs-theme="dark">
         <Container>
           <Navbar.Brand className='text-center'>REGISTRATION FORM</Navbar.Brand>
           <Nav className="ms-auto">
